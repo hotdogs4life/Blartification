@@ -5,7 +5,7 @@ function executeBlartification(tabId, changeInfo, tab) {
         chrome.tabs.executeScript(
             tabId,
             {
-                js: 'blartify();'
+                file: 'blartification.js'
             }
         );
     };
