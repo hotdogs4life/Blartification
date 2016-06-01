@@ -29,11 +29,13 @@ function blartify() {
     var currentNode,
         r = new RegExp(/cop{1,2}/, 'gi');
 
-    while ((currentNode = nodeIterator.nextNode()) === true) {
+    while (currentNode = nodeIterator.nextNode()) {
         if (phrasing_elements.includes(currentNode.parentElement.tagName.toLowerCase())) {
             currentNode.nodeValue = currentNode.nodeValue.replace(r, function (match) {
                 return matchCase('blart', match);
             });
         }
     }
-}
+};
+
+blartify();
