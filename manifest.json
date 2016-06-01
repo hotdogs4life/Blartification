@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
     "name": "Blartification",
-    "description": "This extension replaces (most) instances of 'cop' with 'blart' on reddit.",
-    "version": "0.0.01",
+    "description": "Replaces (most) instances of \"cop\" with \"blart\" on reddit.",
+    "version": "1.0.0",
     
     "minimum_chrome_version": "47",
     
